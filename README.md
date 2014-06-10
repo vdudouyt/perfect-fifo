@@ -1,7 +1,7 @@
 expanding-ringbuffer
 ====================
 
-A high-performance auto-expanding circular buffer
+An auto-expanding circular buffer designed with performance in mind
 
 ### Synopsis
 
