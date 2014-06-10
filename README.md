@@ -17,8 +17,8 @@ ringbuf_get_pending_count(ring);
 
 # Low-level API (no extra copyings)
 ringbuf_lock(ring);
-ringbuf_get_data(ring, chunk_size, &start, &end); // mem=O(1), cpu=O(1)
+int actual_size = ringbuf_get_data(ring, expected_size, &start, &end); // mem=O(1), cpu=O(1)
 do_stuff();
-ringbuf_discard(ring, chunk_size);
+ringbuf_discard(ring, actual_size);
 ringbuf_unlock(ring);
 ```
