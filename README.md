@@ -6,7 +6,7 @@ An auto-expanding circular buffer designed with performance in mind
 ### Synopsis
 
 ```c
-# Constructors / Destructors
+# Constructor / Destructor
 ringbuf_t *ring = ringbuf_init();
 ringbuf_free(ring);
 
