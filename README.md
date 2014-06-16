@@ -1,4 +1,4 @@
-expanding-ringbuffer
+perfect-fifo
 ====================
 
 An auto-expanding circular buffer designed with performance in mind
